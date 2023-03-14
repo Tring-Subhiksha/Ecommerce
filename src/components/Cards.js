@@ -1,7 +1,6 @@
 import React from 'react'
 import "../styles/Cards.css"
 import { useState} from 'react';
-import cart from "./Cart"
 const Cards = ({item,handleClick}) => {
     const {name,price,image}=item;
     const [buttonText,setButtonText]=useState("Add to cart");
