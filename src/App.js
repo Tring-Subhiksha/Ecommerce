@@ -26,7 +26,7 @@ const App=()=> {
     if(additem){
     alert("Remove the Item from your cart")   
     setCount(count-1)
-    return ;
+   
     }
     else
     {
