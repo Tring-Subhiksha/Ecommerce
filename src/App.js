@@ -29,10 +29,10 @@ const App=()=> {
     return ;
     }
     else
-    
+    {
       setCart([...cart,item]);
       setCount(count+1)
-  
+    }
   }
    const Product=()=>{
     setSearch(list.filter(item=>{
